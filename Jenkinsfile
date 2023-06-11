@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Imprimir Hola Mundo'){
             steps {
-                powershell "python holamundo.py"
+                bat "py holamundo.py"
             }
         }
     }
